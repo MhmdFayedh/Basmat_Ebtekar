@@ -5,10 +5,13 @@ let lowerNav = document.querySelector(".lower-nav");
 let scrollUp = document.querySelector('.scroll-up');
 let changeLang = document.querySelector(".change-lang");
 let navItems = document.querySelectorAll(".nav-item");
+let conntactBtn = document.querySelector(".contact-btn");
 
-// let toggleColor = document.querySelectorAll(".line");
 
 
+conntactBtn.onclick = function () {
+    window.location.href = "https://wa.me/966551447006"
+}
 
 toggler.onclick = function () {
     lowerNav.classList.add("open");
