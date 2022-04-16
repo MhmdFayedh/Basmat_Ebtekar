@@ -33,13 +33,13 @@ navItems.forEach(item => {
 
 changeLang.onclick = function () {
 
-    if(window.location.href == "http://127.0.0.1:5500/index.html"){
+    if(window.location.href == "https://basmatebtekar/index.html"){
 
-        window.location.href = "http://127.0.0.1:5500/indexrtl.html";
+        window.location.href = "https://basmatebtekar/indexrtl.html";
 
     }else{
         
-        window.location.href = "http://127.0.0.1:5500/index.html";
+        window.location.href = "https://basmatebtekar/index.html";
     }
     
     
@@ -90,8 +90,5 @@ function scrollToUp(){
 
 window.addEventListener('scroll', scrollToUp);
 
-// if((/iPhone|iPad|iPod|Android|webOS|BlackBerry|Opera Mini|IEMobile/i.test(navigator.userAgent))){
-//     console.log("Phone")
-// }
 
 
