@@ -35,7 +35,7 @@ changeLang.onclick = function () {
 
     if(window.location.href == "https://basmatebtekar.com"){
 
-        window.location.href = "https://basmatebtekar.com/indexrtl.html";
+        window.location.href = "https://basmatebtekar.com/ar";
 
     }else{
         
