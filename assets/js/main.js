@@ -22,9 +22,6 @@ close_btn.onclick = function () {
 
 
 
-// function removeLowerNav(){
-//     lowerNav.classList.remove("open")
-// }
 navItems.forEach(item => {
     item.onclick = () => {
         lowerNav.classList.remove("open")
@@ -33,7 +30,7 @@ navItems.forEach(item => {
 
 changeLang.onclick = function () {
 
-    if(window.location.href == "https://basmatebtekar.com"){
+    if(window.location.href == "https://basmatebtekar.com/"){
 
         window.location.href = "https://basmatebtekar.com/ar";
 
