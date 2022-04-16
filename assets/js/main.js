@@ -33,13 +33,13 @@ navItems.forEach(item => {
 
 changeLang.onclick = function () {
 
-    if(window.location.href == "https://basmatebtekar/index.html"){
+    if(window.location.href == "https://basmatebtekar.com"){
 
-        window.location.href = "https://basmatebtekar/indexrtl.html";
+        window.location.href = "https://basmatebtekar.com/indexrtl.html";
 
     }else{
         
-        window.location.href = "https://basmatebtekar/index.html";
+        window.location.href = "https://basmatebtekar.com";
     }
     
     
